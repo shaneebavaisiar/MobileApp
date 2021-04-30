@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'shop/base.html' %}
+{% block body_block %}
+<div class="container brand_edit">
+    <form action=""method="post">
+        {%csrf_token%}
+        {{form.as_p}}
+        <input type="submit" value="edit" class="brand_edit_bttn">
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends 'shop/base.html' %}
+{% block body_block %}
+
+<div class="container">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <h1>{{mobile.mobile_name}}</h1>
+        <div>
+            <img src="{{mobile.img.url}}" alt="">
+        </div>
+
+        <h2>price:{{mobile.price}}</h2>
+    </div>
+    <a href="{%url 'order' mobile.id%}">Purshase Product</a>
+
+    <div class="col-4"></div>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+=================================BRAND MANAGMENT=========================
+1) shop/brands
+    #get=>list all brands
+    #post=>create a new brand
+# status:completed
+
+2) shop/brands/edit/1
+    # get=>fetch that corresponding brand
+    # post=>update that brand
+status:completed
+
+3)shop /brands/delete/1
+    post=>delete brand with id
+status:completed
+==========================MOBILE MANAGMENT===========================================
+1)shop/mobiles
+get=>list all mobiles
+post=>create new mobiles
+
+2)shop/mobiles/list
+get=>list all mobiles
+
+3)shop/mobile/detail/1
+
+
+3)user authentication
+mobiles/userRegistration
+#=====================================user password==================================
+name:bakshanvaisiar
+password:djangouser
+
+name:binsha
+password:python123

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends 'shop/base.html' %}
+{% block body_block %}
+
+  <h1>product details</h1>
+<div>
+  <img src="{{item.product.img.url}}" alt="">
+</div>
+<div>
+  <span>Item:</span>{{item.product}}
+</div>
+<div>
+  <span>price:</span>{{item.product.price}}
+</div>
+<div>
+  <span>Delivery address:</span>{{item.address}}
+</div>
+
+{% endblock %}
